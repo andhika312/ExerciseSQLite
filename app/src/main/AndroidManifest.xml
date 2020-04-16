@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UpdateKontakActivity"></activity>
+        <activity android:name=".HapusKontakActivity" />
+        <activity android:name=".LihatKontakActivity" />
+        <activity android:name=".BuatKontakActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
