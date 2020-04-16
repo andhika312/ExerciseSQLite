@@ -13,7 +13,7 @@ public class DataHelper extends SQLiteOpenHelper {
     }
     @Override
     public void onCreate(SQLiteDatabase db){
-        String sql = "create table biodata(nama text null, no integer null, email text null, alamat text null);";
+        String sql = "create table biodata(nama text primary key, noTelp integer null, email text null, alamat text null);";
         Log.d("Data","onCreate: "+sql);
         db.execSQL(sql);
     }

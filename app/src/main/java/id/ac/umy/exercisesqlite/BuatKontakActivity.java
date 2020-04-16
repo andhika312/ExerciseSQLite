@@ -34,7 +34,7 @@ public class BuatKontakActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.execSQL("insert into kontak(nama, nomor, email, alamat) values('" +
+                db.execSQL("insert into kontak(nama, noTelp, email, alamat) values('" +
                         nama.getText().toString() + "','" +
                         noTelp.getText().toString() + "','" +
                         email.getText().toString() + "','" +
